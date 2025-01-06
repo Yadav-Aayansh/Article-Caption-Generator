@@ -11,7 +11,7 @@ MODEL_PATH = "fine_tuned_t5"
 # Download the model from Google Drive if it doesn't exist locally
 if not os.path.exists(MODEL_PATH):
     print("Downloading model from Google Drive...")
-    file_id = "YOUR_GOOGLE_DRIVE_FILE_ID"  # Replace with your Google Drive file ID
+    file_id = "1-2bS-tLvhFpL6WUyZu-jMyI3ZEIPQdtQ"  # Replace with your Google Drive file ID
     zip_path = "model.zip"
     gdown.download(f"https://drive.google.com/uc?id={file_id}", zip_path, quiet=False)
     
